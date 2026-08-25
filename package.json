@@ -1,0 +1,16 @@
+{
+  "name": "drivex-studio",
+  "scripts": {
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy"
+  },
+  "dependencies": {
+    "sanity": "^3.x",
+    "@sanity/vision": "^3.x",
+    "sanity-plugin-mux-input": "latest",
+    "react": "^18",
+    "react-dom": "^18",
+    "styled-components": "^6"
+  }
+}
