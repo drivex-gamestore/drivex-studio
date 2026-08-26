@@ -1,24 +1,18 @@
 "use client";
 
-import { defineConfig } from "sanity";
-import { structureTool } from "sanity/structure";
-import { visionTool } from "@sanity/vision";
-import { muxInput } from "sanity-plugin-mux-input";
-import { schemaTypes } from "./src/schemaTypes";
-import { env } from "./env.mjs";
+import {defineConfig} from 'sanity'
+import {structureTool} from 'sanity/structure'
+import {visionTool} from '@sanity/vision'
+import { schemaTypes } from './src/schemaTypes'
 
-const projectId = env.NEXT_PUBLIC_SANITY_PROJECT_ID;
-const dataset = env.NEXT_PUBLIC_SANITY_DATASET;
 
 export default defineConfig({
-  name: "default",
-  title: "DriveX Studio",
-
-  projectId,
-  dataset,
-
-  plugins: [structureTool(), visionTool(), muxInput()],
+  name: 'default',
+  title: 'DriveX Studio',
+  projectId: '0r77qhs0',
+  dataset: 'production',
+  plugins: [structureTool(), visionTool()],
   schema: {
     types: schemaTypes,
   },
-});
+})

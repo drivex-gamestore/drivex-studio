@@ -1,38 +1,36 @@
-import customImage from "@schemaTypes/objects/image";
-import link from "@schemaTypes/objects/link";
-import ctaButton from "@schemaTypes/objects/ctaButton";
-import media from "@schemaTypes/objects/media";
-import headline from "@schemaTypes/objects/headline";
-import availability from "@schemaTypes/objects/availability";
-import contact from "@schemaTypes/objects/contact";
-import linkField from "@schemaTypes/objects/linkField";
-import richText from "@schemaTypes/objects/richText";
-import logoImage from "@schemaTypes/objects/logoImage";
-import svgItem from "@schemaTypes/objects/svgItem";
-import textItem from "@schemaTypes/objects/textItem";
+import customImage from "./objects/image";
+import link from "./objects/link";
+import ctaButton from "./objects/ctaButton";
+import media from "./objects/media";
+import headline from "./objects/headline";
+import availability from "./objects/availability";
+import contact from "./objects/contact";
+import linkField from "./objects/linkField";
+import richText from "./objects/richText";
+import logoImage from "./objects/logoImage";
+import svgItem from "./objects/svgItem";
+import textItem from "./objects/textItem";
 
-import project from "@schemaTypes/documents/project";
-import header from "@schemaTypes/documents/header";
-import footer from "@schemaTypes/documents/footer";
-import heroSection from "@schemaTypes/documents/heroSection";
-import cardsSection from "@schemaTypes/documents/cardsSection";
-import featuredWorkSection from "@schemaTypes/documents/featuredWorkSection";
-import animatedListSection from "@schemaTypes/documents/animatedListSection";
-import indexedGridSection from "@schemaTypes/documents/indexedGridSection";
-import accordionSection from "@schemaTypes/documents/accordionSection";
-import contentBlockSection from "@schemaTypes/documents/contentBlockSection";
-import aboutHero from "@schemaTypes/documents/aboutHero";
-import logoSection from "@schemaTypes/documents/logoSection";
-import storySection from "@schemaTypes/documents/storySection";
+import project from "./documents/project";
+import header from "./documents/header";
+import footer from "./documents/footer";
+import heroSection from "./documents/heroSection";
+import cardsSection from "./documents/cardsSection";
+import featuredWorkSection from "./documents/featuredWorkSection";
+import animatedListSection from "./documents/animatedListSection";
+import indexedGridSection from "./documents/indexedGridSection";
+import accordionSection from "./documents/accordionSection";
+import contentBlockSection from "./documents/contentBlockSection";
+import aboutHero from "./documents/aboutHero";
+import logoSection from "./documents/logoSection";
+import storySection from "./documents/storySection";
 
-import homePage from "@schemaTypes/documents/homePage";
-import aboutPage from "@schemaTypes/documents/aboutPage";
-import workHero from "@schemaTypes/documents/workHero";
-import workSliderSection from "@schemaTypes/documents/workSliderSection";
-
+import homePage from "./documents/homePage";
+import aboutPage from "./documents/aboutPage";
+import workHero from "./documents/workHero";
+import workSliderSection from "./documents/workSliderSection";
 
 export const schemaTypes = [
-  // objects
   customImage,
   link,
   ctaButton,
@@ -45,7 +43,6 @@ export const schemaTypes = [
   logoImage,
   svgItem,
   textItem,
-  // documents
   project,
   header,
   footer,
@@ -59,7 +56,6 @@ export const schemaTypes = [
   aboutHero,
   logoSection,
   storySection,
-  // page builder singletons
   homePage,
   aboutPage,
   workHero,
