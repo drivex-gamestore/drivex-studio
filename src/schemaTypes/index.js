@@ -1,3 +1,4 @@
+
 import customImage from "./objects/image";
 import link from "./objects/link";
 import ctaButton from "./objects/ctaButton";
@@ -12,29 +13,38 @@ import svgItem from "./objects/svgItem";
 import textItem from "./objects/textItem";
 
 import project from "./documents/project";
-import header from "./documents/header";
-import footer from "./documents/footer";
-import heroSection from "./documents/heroSection";
-import cardsSection from "./documents/cardsSection";
-import featuredWorkSection from "./documents/featuredWorkSection";
-import animatedListSection from "./documents/animatedListSection";
-import indexedGridSection from "./documents/indexedGridSection";
-import accordionSection from "./documents/accordionSection";
-import contentBlockSection from "./documents/contentBlockSection";
-import aboutHero from "./documents/aboutHero";
-import logoSection from "./documents/logoSection";
-import storySection from "./documents/storySection";
+import header from "./globals/header";
+import footer from "./globals/footer";
 
-import homePage from "./documents/homePage";
-import aboutPage from "./documents/aboutPage";
-import workHero from "./documents/workHero";
-import workSliderSection from "./documents/workSliderSection";
-import pricingHero from "./documents/pricingHero";
-import pricingPage from "./documents/pricingPage";
-import contactHero from "./documents/contactHero";
-import contactPage from "./documents/contactPage";
+import homePage from "./pages/HomePage/homePage";
+import heroSection from "./pages/HomePage/sections/heroSection";
+import cardsSection from "./pages/HomePage/sections/cardsSection";
+import featuredWorkSection from "./pages/HomePage/sections/featuredWorkSection";
+import animatedListSection from "./pages/HomePage/sections/animatedListSection";
+import indexedGridSection from "./pages/HomePage/sections/indexedGridSection";
+import accordionSection from "./pages/HomePage/sections/accordionSection";
+import contentBlockSection from "./pages/HomePage/sections/contentBlockSection";
+
+// --- About page ---
+import aboutPage from "./pages/AboutPage/aboutPage";
+import aboutHero from "./pages/AboutPage/sections/aboutHero";
+import storySection from "./pages/AboutPage/sections/storySection";
+
+// --- Work page ---
+import workHero from "./pages/WorkPage/workHero";
+import workSliderSection from "./pages/WorkPage/workSliderSection";
+
+// --- Pricing page ---
+import pricingPage from "./pages/PricingPage/pricingPage";
+import pricingHero from "./pages/PricingPage/sections/pricingHero";
+import logoSection from "./pages/PricingPage/sections/logoSection";
+
+// --- Contact page ---
+import contactPage from "./pages/ContactPage/contactPage";
+import contactHero from "./pages/ContactPage/sections/contactHero";
 
 export const schemaTypes = [
+  // objects
   customImage,
   link,
   ctaButton,
@@ -47,9 +57,14 @@ export const schemaTypes = [
   logoImage,
   svgItem,
   textItem,
+
+  // site-wide singletons
   project,
   header,
   footer,
+
+  // home page
+  homePage,
   heroSection,
   cardsSection,
   featuredWorkSection,
@@ -57,15 +72,22 @@ export const schemaTypes = [
   indexedGridSection,
   accordionSection,
   contentBlockSection,
-  aboutHero,
-  logoSection,
-  storySection,
-  homePage,
+
+  // about page
   aboutPage,
+  aboutHero,
+  storySection,
+
+  // work page
   workHero,
   workSliderSection,
-  pricingHero,
+
+  // pricing page
   pricingPage,
-  contactHero,
+  pricingHero,
+  logoSection,
+
+  // contact page
   contactPage,
+  contactHero,
 ];
