@@ -31,6 +31,8 @@ import workHero from "./documents/workHero";
 import workSliderSection from "./documents/workSliderSection";
 import pricingHero from "./documents/pricingHero";
 import pricingPage from "./documents/pricingPage";
+import contactHero from "./documents/contactHero";
+import contactPage from "./documents/contactPage";
 
 export const schemaTypes = [
   customImage,
@@ -64,4 +66,6 @@ export const schemaTypes = [
   workSliderSection,
   pricingHero,
   pricingPage,
+  contactHero,
+  contactPage,
 ];
