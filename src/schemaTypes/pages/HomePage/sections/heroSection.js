@@ -1,4 +1,4 @@
-import { asciiArtFields } from "../objects/asciiArtFields";
+import { asciiArtFields } from "../../../objects/asciiArtFields";
 
 export default {
   name: "heroSection",
