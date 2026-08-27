@@ -5,6 +5,7 @@ export default {
   title: "Hero Section",
   type: "document",
   fields: [
+    { name: "title", title: "Title", type: "string" },
     {
       name: "content",
       title: "Content",
