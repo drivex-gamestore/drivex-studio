@@ -33,6 +33,7 @@ import storySection from "./pages/AboutPage/sections/storySection";
 // --- Work page ---
 import workHero from "./pages/WorkPage/workHero";
 import workSliderSection from "./pages/WorkPage/workSliderSection";
+import mediaSection from "./projects/mediaSection";
 
 // --- Pricing page ---
 import pricingPage from "./pages/PricingPage/pricingPage";
@@ -81,6 +82,7 @@ export const schemaTypes = [
   // work page
   workHero,
   workSliderSection,
+  mediaSection,
 
   // pricing page
   pricingPage,

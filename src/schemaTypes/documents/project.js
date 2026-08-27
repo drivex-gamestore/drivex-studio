@@ -74,6 +74,13 @@ export default {
               to: [{ type: "contentBlockSection" }],
               hidden: ({ parent }) => parent?.sectionType !== "contentBlockSection",
             },
+            {
+              name: "mediaSectionRef",
+              title: "Media section instance",
+              type: "reference",
+              to: [{ type: "mediaSection" }],
+              hidden: ({ parent }) => parent?.sectionType !== "mediaSection",
+            },
             { name: "enabled", title: "Enabled", type: "boolean", initialValue: true },
           ],
           preview: {

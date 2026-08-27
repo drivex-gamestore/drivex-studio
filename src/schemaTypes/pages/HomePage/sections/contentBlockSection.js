@@ -16,6 +16,14 @@ export default {
         { name: "headlineDisplay", title: "Headline display", type: "string" },
         { name: "secondaryHeadline", title: "Headline (text column)", type: "headline" },
         { name: "media", title: "Media", type: "media" },
+        {
+          name: "mediaSize",
+          title: "Media size",
+          description: "Compact: narrow column, cropped to 16:9. Wide: wider column, natural aspect ratio (no crop).",
+          type: "string",
+          options: { list: ["compact", "wide"] },
+          initialValue: "compact",
+        },
         { name: "text", title: "Rich text", type: "richText" },
         {
           name: "ctas",
