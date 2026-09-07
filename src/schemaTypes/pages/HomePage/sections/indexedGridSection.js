@@ -1,7 +1,7 @@
 export default {
   name: "indexedGridSection",
   title: "Indexed Grid Section",
-  type: "document",
+  type: "object", 
   fields: [
     { name: "headline", title: "Headline", type: "headline" },
     { name: "text", title: "Text", type: "text" },

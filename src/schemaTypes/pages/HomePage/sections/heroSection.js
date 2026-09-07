@@ -3,7 +3,7 @@ import { asciiArtFields } from "../../../objects/asciiArtFields";
 export default {
   name: "heroSection",
   title: "Hero Section",
-  type: "document",
+  type: "object", 
   fields: [
     { name: "title", title: "Title", type: "string" },
     {

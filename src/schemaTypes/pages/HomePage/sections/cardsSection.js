@@ -1,7 +1,7 @@
 export default {
   name: "cardsSection",
   title: "Cards Section",
-  type: "document",
+  type: "object", 
   fields: [
     { name: "theme", title: "Theme", type: "string" },
     { name: "pageBuilderSection", title: "Page builder section", type: "string" },
