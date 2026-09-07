@@ -1,7 +1,7 @@
 export default {
   name: "featuredWorkSection",
   title: "Featured Work Section",
-  type: "object", 
+  type: "document",
   fields: [
     { name: "theme", title: "Theme", type: "string" },
     { name: "pageBuilderSection", title: "Page builder section", type: "string" },

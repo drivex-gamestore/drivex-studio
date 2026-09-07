@@ -1,7 +1,7 @@
 export default {
   name: "contentBlockSection",
   title: "Content Block Section",
-  type: "object", 
+  type: "document",
   fields: [
     { name: "theme", title: "Theme", type: "string" },
     { name: "selector", title: "Selector (optional anchor id)", type: "string" },
